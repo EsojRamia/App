@@ -72,6 +72,35 @@
             </objects>
             <point key="canvasLocation" x="305" y="418"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xKQ-v8-fZh">
+            <objects>
+                <viewController id="xkk-vo-HZC" customClass="QRViewController" customModule="appTampico" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="moI-8D-a2u"/>
+                        <viewControllerLayoutGuide type="bottom" id="GTj-WP-WFB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cqp-Sb-ALk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RF3-ES-49L">
+                                <rect key="frame" x="0.0" y="502" width="600" height="98"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoLabel" destination="RF3-ES-49L" id="A37-BM-EU4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OgL-5w-CYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="1129"/>
+        </scene>
         <!--Places Controller-->
         <scene sceneID="zfe-ub-Ij0">
             <objects>
@@ -168,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heX-KF-JRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1605" y="243"/>
+            <point key="canvasLocation" x="1664" y="243"/>
         </scene>
     </scenes>
 </document>

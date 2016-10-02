@@ -23,6 +23,7 @@
 		83D7FD541DA16F540033DD2F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D7FD531DA16F540033DD2F /* Social.framework */; };
 		83D7FD561DA1705C0033DD2F /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7FD551DA1705C0033DD2F /* MapaViewController.swift */; };
 		83D7FD5A1DA171570033DD2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D7FD591DA171570033DD2F /* CoreLocation.framework */; };
+		83D7FD5C1DA1B0F00033DD2F /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7FD5B1DA1B0F00033DD2F /* QRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		83D7FD531DA16F540033DD2F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		83D7FD551DA1705C0033DD2F /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		83D7FD591DA171570033DD2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83D7FD5B1DA1B0F00033DD2F /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				8334C2311D9C6FEB00264F8F /* MapCellController.swift */,
 				8334C2331D9C706100264F8F /* PlacesController.swift */,
 				83D7FD551DA1705C0033DD2F /* MapaViewController.swift */,
+				83D7FD5B1DA1B0F00033DD2F /* QRViewController.swift */,
 			);
 			path = appTampico;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				8334C22B1D9C685100264F8F /* MenuCellController.swift in Sources */,
 				8334C2321D9C6FEB00264F8F /* MapCellController.swift in Sources */,
 				8334C1FA1D9C604200264F8F /* appTampico.xcdatamodeld in Sources */,
+				83D7FD5C1DA1B0F00033DD2F /* QRViewController.swift in Sources */,
 				8334C1F41D9C604200264F8F /* ViewController.swift in Sources */,
 				83D7FD561DA1705C0033DD2F /* MapaViewController.swift in Sources */,
 				8334C1F21D9C604200264F8F /* AppDelegate.swift in Sources */,
