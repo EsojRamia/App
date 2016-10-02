@@ -118,6 +118,7 @@ class MapaViewController: UIViewController,  MKMapViewDelegate, CLLocationManage
         return renderer
     }
     
+   
 
     /*
     // MARK: - Navigation
